@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.back{
+    width: 100%;
+    height: 100vh;
+    background: gray;
+    border-bottom: 5px solid blue;
+    border-top: 5px solid blue;
+    border-left: 5px solid blue;
+    border-right: 5px solid blue;
+}
+.nav{
+    margin-left: 300px;
+    height: 60px;
+    background: linear-gradient(to top ,#2f4353 10%,#d2ccc4 75%);
+    margin-top: -47.7%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+    padding-left: 25%;
+    border-radius: 5px;
+}
+.nav ul li{ 
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+    margin-left: 50px;
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.nav ul li:hover{
+    background: gray;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius:10px;
+    transition: 0.4s;
+}
+.menu{
+    display: none;
+}
+.nav ul li:hover .menu{
+    display: block;
+    position: absolute;
+    background: gray;
+    margin-top: 5px;
+    margin-left: -5px;
+    border-radius: 10px;
+    border: 2px solid black;
+    
+}
+.nav ul li:hover .menu ul{
+    display:block;
+    margin: 2px;
+}
+.nav ul li:hover .menu ul li{
+    display: block;
+    width: 150px;
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid white;
+    background: transparent;
+    text-align: left;
+
+}
+.nav ul li:hover .menu ul li:hover{
+    background: darkgray;
+    transition: 0.5s;
+}
+.nav ul li:hover .menu ul li a:hover{
+     color: white;
+}
+.side{
+    width: 300px;
+    height: 100%;
+    background-image: linear-gradient(to top, #8d73ee, #5287e4, #4190ca, #5f92ab, #838f92);
+    border-radius: 5px;
+}
+.logo img{
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+.logo h2{
+    width: 270px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+    font-weight: bold;
+}
+.logo p{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+    color: blanchedalmond;
+}
+.block{
+    margin-left: 300px;
+    height: 584px;
+    background-image: url(https://imaqpress.com/wp-content/uploads/2021/04/online-learning.jpg)
+}
+.menu1{
+   display: none; 
+}
+.nav ul li:hover .menu ul li:hover .menu1{
+    display: block;
+    position: absolute;
+    background: gray;
+    margin-top: -5px;
+    margin-left: 130px;
+    border-radius: 10px;
+       
+}
+
+.nav ul li:hover .menu ul li:hover .menu1 ul{
+    display:block;
+    margin: 2px;
+}
+.nav ul li:hover .menu ul li:hover .menu1 ul li{
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid black;
+    background: transparent;
+    text-align: left;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.login{
+    width: 270px;
+    height: 400px;
+    background: linear-gradient(to top ,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    margin-top:150px;
+    margin-left: 700px;
+    border-radius: 10px;
+    padding: 25px;
+    border: 2px solid gray;
+    position: absolute;
+    transition: 0.5s;
+
+}
+.login h2{
+    width: 200px;
+    text-align: center;
+    font-size: 22px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    border: 3px solid gray;
+}  
+.login input{
+    width: 220px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid crimson;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 15px;
+    margin-top: 25px;
+    letter-spacing: 1px;
+    
+}
+.login input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+.b1{
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    border: none;
+    background: gray;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.4s ease;
+}
+.b1:hover{
+    background: white;
+}
+.b1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.login .pra{
+    font-size: 17px;
+    padding-top:30px;
+    text-align: center;
+    color: white;
+}
+
+.login .pra a{
+    text-decoration: none;
+    color: crimson;
+    font-weight: bold;
+}
+
+
+.login:hover{
+    background: #4b6f9f;
+}
+.login:hover h3{
+    color:black;
+}
+.login:hover ::placeholder{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
